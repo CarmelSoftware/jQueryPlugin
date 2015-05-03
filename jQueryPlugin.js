@@ -1,4 +1,3 @@
-<script>
 (function( $ ){
 $.fn.customize = function(option1,option2){
 
@@ -21,4 +20,4 @@ return this;
 
 
 }(jQuery));
-</script>
+
