@@ -1,1 +1,24 @@
-///// TODO: make an HTML markup which uses the jQuery Plugin
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/styles.css"></link>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script href="js/jQueryPlugin.js"></script>
+<script>
+$(document).ready(function()
+{
+  jQuery("button").click(function(){
+
+    jQuery("#div-example").customize("aqua","red")
+          .css({"box-shadow":"10px 20px 1px #c0c0c0"});
+   
+  });
+});
+</script>
+</head>
+<body>
+<div id="div-example"  >
+Ad</div>
+<button>Apply jQuery Custom Plugin</button>
+</body>
+</html>
