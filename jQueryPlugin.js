@@ -1,4 +1,3 @@
-<script>
 (function( $ ){
 $.fn.customize = function(option1,option2){
 
@@ -16,9 +15,6 @@ $.fn.customize = function(option1,option2){
       .fadeOut(3000);
 
 return this;
-
 };
-
-
 }(jQuery));
-</script>
+
